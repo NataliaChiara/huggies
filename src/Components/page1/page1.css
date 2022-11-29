@@ -1,0 +1,118 @@
+.red {
+    color: #D6291C;
+}
+
+.page1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.element {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.image {
+    position: absolute;
+    padding: 8px;
+    width: 250px;
+}
+
+.image2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.border {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 4px dotted #D6291C;
+    border-radius: 100%;
+    animation: rotation 50s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.text {
+    width: 330px;
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 22px;
+    margin-top: 12px;
+}
+
+.text p {
+    font-size: 18px;
+}
+
+.button {
+    background-color: #D6291C;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.links{
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.links a {
+    margin: 3px;
+}
+
+.notaMusical1 {
+    width: 30px;
+    position: absolute;
+    top: 120px;
+    right: 50px;
+    animation: bounce 1s infinite ease-in-out alternate;
+}
+
+.notaMusical2 {
+    width: 30px;
+    position: absolute;
+    top: 300px;
+    left: 25px;
+    animation: bounce 1s infinite ease-in-out alternate;
+}
+
+.notaMusical3 {
+    width: 35px;
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+    animation: bounce 1s infinite ease-in-out alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(10px);
+    }
+}

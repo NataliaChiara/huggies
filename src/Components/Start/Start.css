@@ -1,0 +1,35 @@
+.headerContainer {
+    height: 130px;
+}
+
+.header {
+    width: 100vw;
+    height: 80px;
+    background-color: #D6291C;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoHuggies {
+    margin: 20px 0px 0px 10px;
+    width: 175px;
+    height: fit-content;
+}
+
+.spotify {
+    color: white;
+    height: fit-content;
+    font-size: 10px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.logoSpotify {
+    margin-left: 5px;
+    width: 70px;
+}
+
+.wave {
+    width: 100vw;
+}
