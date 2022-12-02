@@ -55,7 +55,7 @@
     align-items: center;
 }
 
-.circle {
+.circleActive {
     background-color: #D6291C;
     color: white;
     width: 40px;
@@ -67,7 +67,9 @@
     font-size: 30px;
 }
 
-.circle2 {
+.circlePassive {
+    font-size: 1px;
+    color: #D6291C;
     background-color: #D6291C;
     width: 15px;
     height: 15px;

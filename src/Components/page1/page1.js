@@ -4,6 +4,7 @@ import product from './Assets/producto.png'
 import nota1 from './Assets/nota-musical-1.png'
 import nota2 from './Assets/nota-musical-2.png'
 import nota3 from './Assets/nota-musical-3.png'
+import { Link } from 'react-router-dom'
 
 const Page1 = () => {
     return (
@@ -23,7 +24,7 @@ const Page1 = () => {
                     ¡Y también tus primeras emociones!</p>
                 <strong><p>Descubrilas en nuestra trivia.</p></strong>
             </div>
-            <button className='button'>COMENZAR</button>
+            <Link to={'/quiz'} className='button'>COMENZAR</Link>
             <div className='links'>
                 <a>Huggies</a>|
                 <a>Copyright © 2022</a>|
